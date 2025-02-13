@@ -31,7 +31,7 @@ public class MainP11 {
                 saldo += depositoMensual + interes;
 
                 // Mostrar resultados
-                System.out.printf("- d -|- %.2f -|- %.2f -|- %.2f -|- %.2f%n -",i,saldo, depositoMensual, interes, saldo);
+                System.out.printf("--%d--|--%.2f--|--%.2f--|--%.2f--|--%.2f%n--",i,saldo, depositoMensual, interes, saldo);
             }
         }
     } 
